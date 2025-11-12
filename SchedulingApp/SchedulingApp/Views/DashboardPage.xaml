@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 x:Class="SchedulingApp.Views.DashboardPage"
+			 Title="My Dashboard">
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="20">
+            <!-- Welcome Header -->
+            <Border BackgroundColor="#4F4F4F" 
+					StrokeThickness="0"
+					Padding="20">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="10"/>
+                </Border.StrokeShape>
+                <VerticalStackLayout Spacing="5">
+                    <Label Text="Welcome Back!" 
+						   FontSize="24" 
+						   FontAttributes="Bold"
+						   TextColor="White"/>
+                    <Label x:Name="UserNameLabel"
+						   Text="Alex Sorichetti"
+						   FontSize="18"
+						   TextColor="White"/>
+                </VerticalStackLayout>
+            </Border>
+            <!-- Quick Stats -->
+            <Label Text="Quick Stats" 
+				   FontSize="20" 
+				   FontAttributes="Bold"/>
+            <Grid ColumnDefinitions="*,*" 
+				  RowDefinitions="Auto" 
+				  ColumnSpacing="10">
+                <!-- Upcoming Shifts Card -->
+                <Border Grid.Column="0" 
+						BackgroundColor="#E3F2FD" 
+						StrokeThickness="0"
+						Padding="15">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="10"/>
+                    </Border.StrokeShape>
+                    <VerticalStackLayout Spacing="5">
+                        <Label Text="Upcoming Shifts" 
+							   FontSize="14" 
+							   TextColor="#4F4F4F"/>
+                        <Label x:Name="UpcomingCountLabel"
+							   Text="3" 
+							   FontSize="32" 
+							   FontAttributes="Bold"
+							   TextColor="#4D4D4D"/>
+                    </VerticalStackLayout>
+                </Border>
+                <!-- Hours This Month Card -->
+                <Border Grid.Column="1" 
+						BackgroundColor="#E8F5E9" 
+						StrokeThickness="0"
+						Padding="15">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="10"/>
+                    </Border.StrokeShape>
+                    <VerticalStackLayout Spacing="5">
+                        <Label Text="Hours This Month" 
+							   FontSize="14" 
+							   TextColor="#388E3C"/>
+                        <Label x:Name="HoursLabel"
+							   Text="12" 
+							   FontSize="32" 
+							   FontAttributes="Bold"
+							   TextColor="#2E7D32"/>
+                    </VerticalStackLayout>
+                </Border>
+            </Grid>
+            <!-- Upcoming Shifts Section -->
+            <Label Text="Your Next Shifts" 
+				   FontSize="20" 
+				   FontAttributes="Bold"
+				   Margin="0,10,0,0"/>
+            <CollectionView x:Name="UpcomingShiftsCollection">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Border Margin="0,5" 
+								Padding="15" 
+								BackgroundColor="White"
+								Stroke="#E0E0E0"
+								StrokeThickness="1">
+                            <Border.StrokeShape>
+                                <RoundRectangle CornerRadius="10"/>
+                            </Border.StrokeShape>
+                            <Grid ColumnDefinitions="*,Auto" RowDefinitions="Auto,Auto,Auto">
+                                <Label Grid.Row="0" Grid.Column="0"
+									   Text="{Binding Title}"
+									   FontSize="18"
+									   FontAttributes="Bold"/>
+                                <Label Grid.Row="1" Grid.Column="0"
+									   Text="{Binding StartTime, StringFormat='{0:MMM dd, yyyy - h:mm tt}'}"
+									   FontSize="14"
+									   TextColor="Gray"/>
+                                <Label Grid.Row="2" Grid.Column="0"
+									   Text="{Binding Location}"
+									   FontSize="14"
+									   TextColor="#666"/>
+                                <Button Grid.Row="0" Grid.RowSpan="3" Grid.Column="1"
+										Text="Details"
+										BackgroundColor="#2196F3"
+										TextColor="White"
+										CornerRadius="5"
+										Clicked="OnShiftDetailsClicked"/>
+                            </Grid>
+                        </Border>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+            <!-- Browse Available Shifts Button -->
+            <Button Text="Browse Available Shifts"
+					BackgroundColor="#4CAF50"
+					TextColor="White"
+					FontSize="16"
+					CornerRadius="10"
+					Padding="15"
+					Clicked="OnBrowseShiftsClicked"
+					Margin="0,20,0,0"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
