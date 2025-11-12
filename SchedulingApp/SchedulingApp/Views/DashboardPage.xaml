@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
+    <!--
+    Name:Alex Sorichetti
+    Date: November 11th 2025
+    Desc: The layout data information for this mock up of a scheduling app. It works on the MAUI framework to build a multiplatform application
+    -->
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
 			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
 			 x:Class="SchedulingApp.Views.DashboardPage"
