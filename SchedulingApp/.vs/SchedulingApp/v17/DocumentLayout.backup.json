@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "SchedulingApp\\Views\\DashboardPage.xaml",
               "ToolTip": "C:\\Users\\alex\\Documents\\GitHub\\scheduling_android_app\\SchedulingApp\\SchedulingApp\\Views\\DashboardPage.xaml",
               "RelativeToolTip": "SchedulingApp\\Views\\DashboardPage.xaml",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAAAHoAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-11T20:47:08.379Z",
               "EditorCaption": ""
@@ -51,8 +51,7 @@
               "RelativeToolTip": "SchedulingApp\\Models\\User.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T20:07:51.62Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T20:07:51.62Z"
             },
             {
               "$type": "Document",
@@ -64,21 +63,19 @@
               "RelativeToolTip": "SchedulingApp\\Models\\Shift.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T20:05:55.299Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T20:05:55.299Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SchedulingApp",
+              "Title": "SchedulingApp.csproj",
               "DocumentMoniker": "C:\\Users\\alex\\Documents\\GitHub\\scheduling_android_app\\SchedulingApp\\SchedulingApp\\SchedulingApp.csproj",
               "RelativeDocumentMoniker": "SchedulingApp\\SchedulingApp.csproj",
               "ToolTip": "C:\\Users\\alex\\Documents\\GitHub\\scheduling_android_app\\SchedulingApp\\SchedulingApp\\SchedulingApp.csproj",
               "RelativeToolTip": "SchedulingApp\\SchedulingApp.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-11T20:04:45.671Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T20:04:45.671Z"
             },
             {
               "$type": "Bookmark",

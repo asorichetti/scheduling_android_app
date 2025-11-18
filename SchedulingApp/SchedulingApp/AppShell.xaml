@@ -1,14 +1,68 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<!--
+    Name: Alex Sorichetti
+    Date: November 18, 2025
+    Desc: Shell navigation structure for the scheduling app
+-->
 <Shell
     x:Class="SchedulingApp.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:SchedulingApp"
-    Title="SchedulingApp">
+    xmlns:views="clr-namespace:SchedulingApp.Views"
+    Shell.FlyoutBehavior="Flyout"
+    FlyoutBackgroundColor="#4F4F4F">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <!-- Flyout Header -->
+    <Shell.FlyoutHeader>
+        <Grid BackgroundColor="#2E2E2E" Padding="20" HeightRequest="150">
+            <VerticalStackLayout VerticalOptions="Center">
+                <Label Text="Volunteer Scheduler" 
+                       FontSize="24" 
+                       FontAttributes="Bold"
+                       TextColor="White"
+                       HorizontalOptions="Center"/>
+                <Label Text="Stay organized, make a difference" 
+                       FontSize="14" 
+                       TextColor="#E0E0E0"
+                       HorizontalOptions="Center"
+                       Margin="0,5,0,0"/>
+            </VerticalStackLayout>
+        </Grid>
+    </Shell.FlyoutHeader>
+
+    <!-- Menu Items -->
+    <FlyoutItem Title="Dashboard" 
+                Icon="home.png"
+                Route="DashboardPage">
+        <ShellContent ContentTemplate="{DataTemplate views:DashboardPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Browse Shifts" 
+                Icon="calendar.png"
+                Route="ShiftsPage">
+        <ShellContent ContentTemplate="{DataTemplate views:ShiftsPage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="My Schedule" 
+                Icon="schedule.png"
+                Route="MySchedulePage">
+        <ShellContent ContentTemplate="{DataTemplate views:MySchedulePage}" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Profile" 
+                Icon="person.png"
+                Route="ProfilePage">
+        <ShellContent ContentTemplate="{DataTemplate views:ProfilePage}" />
+    </FlyoutItem>
+
+    <!-- Flyout Footer -->
+    <Shell.FlyoutFooter>
+        <Grid BackgroundColor="#3E3E3E" Padding="15" HeightRequest="60">
+            <Label Text="Version 1.0.0" 
+                   FontSize="12" 
+                   TextColor="#B0B0B0"
+                   VerticalOptions="Center"/>
+        </Grid>
+    </Shell.FlyoutFooter>
 
 </Shell>

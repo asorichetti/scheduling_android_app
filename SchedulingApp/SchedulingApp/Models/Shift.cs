@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SchedulingApp.Models
 {
-    internal class Shift
+    public class Shift
     {
         public int Id {  get; set; }
         public string Title {  get; set; }
