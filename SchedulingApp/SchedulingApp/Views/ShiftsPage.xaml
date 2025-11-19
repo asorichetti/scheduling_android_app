@@ -13,7 +13,7 @@
             <!--Search Bar-->
             <SearchBar x:Name="ShiftSearchBar"
                        Placeholder="Search shifts..."
-                       SearchButtonPressed="OnSearchBarBUttonPressed"
+                       SearchButtonPressed="OnSearchButtonPressed"
                        TextChanged="OnSearchBarTextChanged"/>
             
             <!--Filter Buttons-->

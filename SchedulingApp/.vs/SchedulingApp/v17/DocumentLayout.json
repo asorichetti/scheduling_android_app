@@ -3,28 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\alex\\Documents\\GitHub\\scheduling_android_app\\SchedulingApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0D8FCA63-0FB2-4A13-AB37-57CE88165418}|SchedulingApp\\SchedulingApp.csproj|c:\\users\\alex\\documents\\github\\scheduling_android_app\\schedulingapp\\schedulingapp\\views\\myschedulepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D8FCA63-0FB2-4A13-AB37-57CE88165418}|SchedulingApp\\SchedulingApp.csproj|solutionrelative:schedulingapp\\views\\myschedulepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D8FCA63-0FB2-4A13-AB37-57CE88165418}|SchedulingApp\\SchedulingApp.csproj|c:\\users\\alex\\documents\\github\\scheduling_android_app\\schedulingapp\\schedulingapp\\views\\myschedulepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0D8FCA63-0FB2-4A13-AB37-57CE88165418}|SchedulingApp\\SchedulingApp.csproj|solutionrelative:schedulingapp\\views\\myschedulepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D8FCA63-0FB2-4A13-AB37-57CE88165418}|SchedulingApp\\SchedulingApp.csproj|c:\\users\\alex\\documents\\github\\scheduling_android_app\\schedulingapp\\schedulingapp\\views\\shiftspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D8FCA63-0FB2-4A13-AB37-57CE88165418}|SchedulingApp\\SchedulingApp.csproj|solutionrelative:schedulingapp\\views\\shiftspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0D8FCA63-0FB2-4A13-AB37-57CE88165418}|SchedulingApp\\SchedulingApp.csproj|c:\\users\\alex\\documents\\github\\scheduling_android_app\\schedulingapp\\schedulingapp\\views\\shiftspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{0D8FCA63-0FB2-4A13-AB37-57CE88165418}|SchedulingApp\\SchedulingApp.csproj|solutionrelative:schedulingapp\\views\\shiftspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D8FCA63-0FB2-4A13-AB37-57CE88165418}|SchedulingApp\\SchedulingApp.csproj|c:\\users\\alex\\documents\\github\\scheduling_android_app\\schedulingapp\\schedulingapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0D8FCA63-0FB2-4A13-AB37-57CE88165418}|SchedulingApp\\SchedulingApp.csproj|solutionrelative:schedulingapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D8FCA63-0FB2-4A13-AB37-57CE88165418}|SchedulingApp\\SchedulingApp.csproj|c:\\users\\alex\\documents\\github\\scheduling_android_app\\schedulingapp\\schedulingapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D8FCA63-0FB2-4A13-AB37-57CE88165418}|SchedulingApp\\SchedulingApp.csproj|solutionrelative:schedulingapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0D8FCA63-0FB2-4A13-AB37-57CE88165418}|SchedulingApp\\SchedulingApp.csproj|c:\\users\\alex\\documents\\github\\scheduling_android_app\\schedulingapp\\schedulingapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{0D8FCA63-0FB2-4A13-AB37-57CE88165418}|SchedulingApp\\SchedulingApp.csproj|solutionrelative:schedulingapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D8FCA63-0FB2-4A13-AB37-57CE88165418}|SchedulingApp\\SchedulingApp.csproj|c:\\users\\alex\\documents\\github\\scheduling_android_app\\schedulingapp\\schedulingapp\\views\\dashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D8FCA63-0FB2-4A13-AB37-57CE88165418}|SchedulingApp\\SchedulingApp.csproj|solutionrelative:schedulingapp\\views\\dashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0D8FCA63-0FB2-4A13-AB37-57CE88165418}|SchedulingApp\\SchedulingApp.csproj|c:\\users\\alex\\documents\\github\\scheduling_android_app\\schedulingapp\\schedulingapp\\models\\shift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D8FCA63-0FB2-4A13-AB37-57CE88165418}|SchedulingApp\\SchedulingApp.csproj|solutionrelative:schedulingapp\\models\\shift.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D8FCA63-0FB2-4A13-AB37-57CE88165418}|SchedulingApp\\SchedulingApp.csproj|c:\\users\\alex\\documents\\github\\scheduling_android_app\\schedulingapp\\schedulingapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D8FCA63-0FB2-4A13-AB37-57CE88165418}|SchedulingApp\\SchedulingApp.csproj|solutionrelative:schedulingapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D8FCA63-0FB2-4A13-AB37-57CE88165418}|SchedulingApp\\SchedulingApp.csproj|c:\\users\\alex\\documents\\github\\scheduling_android_app\\schedulingapp\\schedulingapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0D8FCA63-0FB2-4A13-AB37-57CE88165418}|SchedulingApp\\SchedulingApp.csproj|solutionrelative:schedulingapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D8FCA63-0FB2-4A13-AB37-57CE88165418}|SchedulingApp\\SchedulingApp.csproj|c:\\users\\alex\\documents\\github\\scheduling_android_app\\schedulingapp\\schedulingapp\\views\\dashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D8FCA63-0FB2-4A13-AB37-57CE88165418}|SchedulingApp\\SchedulingApp.csproj|solutionrelative:schedulingapp\\views\\dashboardpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0D8FCA63-0FB2-4A13-AB37-57CE88165418}|SchedulingApp\\SchedulingApp.csproj|c:\\users\\alex\\documents\\github\\scheduling_android_app\\schedulingapp\\schedulingapp\\views\\dashboardpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -51,90 +63,80 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ShiftsPage.xaml",
-              "DocumentMoniker": "C:\\Users\\alex\\Documents\\GitHub\\scheduling_android_app\\SchedulingApp\\SchedulingApp\\Views\\ShiftsPage.xaml",
-              "RelativeDocumentMoniker": "SchedulingApp\\Views\\ShiftsPage.xaml",
-              "ToolTip": "C:\\Users\\alex\\Documents\\GitHub\\scheduling_android_app\\SchedulingApp\\SchedulingApp\\Views\\ShiftsPage.xaml",
-              "RelativeToolTip": "SchedulingApp\\Views\\ShiftsPage.xaml",
-              "ViewState": "AgIAAIEAAAAAAAAAAAAQwIsAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-18T20:14:25.499Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\alex\\Documents\\GitHub\\scheduling_android_app\\SchedulingApp\\SchedulingApp\\App.xaml",
-              "RelativeDocumentMoniker": "SchedulingApp\\App.xaml",
-              "ToolTip": "C:\\Users\\alex\\Documents\\GitHub\\scheduling_android_app\\SchedulingApp\\SchedulingApp\\App.xaml",
-              "RelativeToolTip": "SchedulingApp\\App.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-18T18:35:01.764Z",
+              "Title": "MySchedulePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\alex\\Documents\\GitHub\\scheduling_android_app\\SchedulingApp\\SchedulingApp\\Views\\MySchedulePage.xaml.cs",
+              "RelativeDocumentMoniker": "SchedulingApp\\Views\\MySchedulePage.xaml.cs",
+              "ToolTip": "C:\\Users\\alex\\Documents\\GitHub\\scheduling_android_app\\SchedulingApp\\SchedulingApp\\Views\\MySchedulePage.xaml.cs",
+              "RelativeToolTip": "SchedulingApp\\Views\\MySchedulePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T16:40:36.034Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "ShiftsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\alex\\Documents\\GitHub\\scheduling_android_app\\SchedulingApp\\SchedulingApp\\Views\\ShiftsPage.xaml.cs",
+              "RelativeDocumentMoniker": "SchedulingApp\\Views\\ShiftsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\alex\\Documents\\GitHub\\scheduling_android_app\\SchedulingApp\\SchedulingApp\\Views\\ShiftsPage.xaml.cs",
+              "RelativeToolTip": "SchedulingApp\\Views\\ShiftsPage.xaml.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAswKQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T16:01:21.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShiftsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\alex\\Documents\\GitHub\\scheduling_android_app\\SchedulingApp\\SchedulingApp\\Views\\ShiftsPage.xaml",
+              "RelativeDocumentMoniker": "SchedulingApp\\Views\\ShiftsPage.xaml",
+              "ToolTip": "C:\\Users\\alex\\Documents\\GitHub\\scheduling_android_app\\SchedulingApp\\SchedulingApp\\Views\\ShiftsPage.xaml",
+              "RelativeToolTip": "SchedulingApp\\Views\\ShiftsPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAowA8AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-19T16:01:11.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MySchedulePage.xaml",
+              "DocumentMoniker": "C:\\Users\\alex\\Documents\\GitHub\\scheduling_android_app\\SchedulingApp\\SchedulingApp\\Views\\MySchedulePage.xaml",
+              "RelativeDocumentMoniker": "SchedulingApp\\Views\\MySchedulePage.xaml",
+              "ToolTip": "C:\\Users\\alex\\Documents\\GitHub\\scheduling_android_app\\SchedulingApp\\SchedulingApp\\Views\\MySchedulePage.xaml",
+              "RelativeToolTip": "SchedulingApp\\Views\\MySchedulePage.xaml",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAAALoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-19T16:00:20.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\alex\\Documents\\GitHub\\scheduling_android_app\\SchedulingApp\\SchedulingApp\\App.xaml.cs",
               "RelativeDocumentMoniker": "SchedulingApp\\App.xaml.cs",
               "ToolTip": "C:\\Users\\alex\\Documents\\GitHub\\scheduling_android_app\\SchedulingApp\\SchedulingApp\\App.xaml.cs",
               "RelativeToolTip": "SchedulingApp\\App.xaml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAIwBoAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAywBoAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-18T16:21:58.954Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "C:\\Users\\alex\\Documents\\GitHub\\scheduling_android_app\\SchedulingApp\\SchedulingApp\\AppShell.xaml",
               "RelativeDocumentMoniker": "SchedulingApp\\AppShell.xaml",
               "ToolTip": "C:\\Users\\alex\\Documents\\GitHub\\scheduling_android_app\\SchedulingApp\\SchedulingApp\\AppShell.xaml",
               "RelativeToolTip": "SchedulingApp\\AppShell.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDAAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-11-18T15:58:40.405Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DashboardPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\alex\\Documents\\GitHub\\scheduling_android_app\\SchedulingApp\\SchedulingApp\\Views\\DashboardPage.xaml.cs",
-              "RelativeDocumentMoniker": "SchedulingApp\\Views\\DashboardPage.xaml.cs",
-              "ToolTip": "C:\\Users\\alex\\Documents\\GitHub\\scheduling_android_app\\SchedulingApp\\SchedulingApp\\Views\\DashboardPage.xaml.cs",
-              "RelativeToolTip": "SchedulingApp\\Views\\DashboardPage.xaml.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAgwEgAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-18T15:10:15.335Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DashboardPage.xaml",
-              "DocumentMoniker": "C:\\Users\\alex\\Documents\\GitHub\\scheduling_android_app\\SchedulingApp\\SchedulingApp\\Views\\DashboardPage.xaml",
-              "RelativeDocumentMoniker": "SchedulingApp\\Views\\DashboardPage.xaml",
-              "ToolTip": "C:\\Users\\alex\\Documents\\GitHub\\scheduling_android_app\\SchedulingApp\\SchedulingApp\\Views\\DashboardPage.xaml",
-              "RelativeToolTip": "SchedulingApp\\Views\\DashboardPage.xaml",
-              "ViewState": "AgIAAF8AAAAAAAAAAADwv2cAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-11T20:47:08.379Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\alex\\Documents\\GitHub\\scheduling_android_app\\SchedulingApp\\SchedulingApp\\Models\\User.cs",
-              "RelativeDocumentMoniker": "SchedulingApp\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\alex\\Documents\\GitHub\\scheduling_android_app\\SchedulingApp\\SchedulingApp\\Models\\User.cs",
-              "RelativeToolTip": "SchedulingApp\\Models\\User.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T20:07:51.62Z"
             },
             {
               "$type": "Document",
@@ -146,11 +148,60 @@
               "RelativeToolTip": "SchedulingApp\\Models\\Shift.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T20:05:55.299Z"
+              "WhenOpened": "2025-11-11T20:05:55.299Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\alex\\Documents\\GitHub\\scheduling_android_app\\SchedulingApp\\SchedulingApp\\App.xaml",
+              "RelativeDocumentMoniker": "SchedulingApp\\App.xaml",
+              "ToolTip": "C:\\Users\\alex\\Documents\\GitHub\\scheduling_android_app\\SchedulingApp\\SchedulingApp\\App.xaml",
+              "RelativeToolTip": "SchedulingApp\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-18T18:35:01.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DashboardPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\alex\\Documents\\GitHub\\scheduling_android_app\\SchedulingApp\\SchedulingApp\\Views\\DashboardPage.xaml.cs",
+              "RelativeDocumentMoniker": "SchedulingApp\\Views\\DashboardPage.xaml.cs",
+              "ToolTip": "C:\\Users\\alex\\Documents\\GitHub\\scheduling_android_app\\SchedulingApp\\SchedulingApp\\Views\\DashboardPage.xaml.cs",
+              "RelativeToolTip": "SchedulingApp\\Views\\DashboardPage.xaml.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAgwEgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T15:10:15.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DashboardPage.xaml",
+              "DocumentMoniker": "C:\\Users\\alex\\Documents\\GitHub\\scheduling_android_app\\SchedulingApp\\SchedulingApp\\Views\\DashboardPage.xaml",
+              "RelativeDocumentMoniker": "SchedulingApp\\Views\\DashboardPage.xaml",
+              "ToolTip": "C:\\Users\\alex\\Documents\\GitHub\\scheduling_android_app\\SchedulingApp\\SchedulingApp\\Views\\DashboardPage.xaml",
+              "RelativeToolTip": "SchedulingApp\\Views\\DashboardPage.xaml",
+              "ViewState": "AgIAAF8AAAAAAAAAAADwv2cAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-11T20:47:08.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\alex\\Documents\\GitHub\\scheduling_android_app\\SchedulingApp\\SchedulingApp\\Models\\User.cs",
+              "RelativeDocumentMoniker": "SchedulingApp\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\alex\\Documents\\GitHub\\scheduling_android_app\\SchedulingApp\\SchedulingApp\\Models\\User.cs",
+              "RelativeToolTip": "SchedulingApp\\Models\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T20:07:51.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "SchedulingApp.csproj",
               "DocumentMoniker": "C:\\Users\\alex\\Documents\\GitHub\\scheduling_android_app\\SchedulingApp\\SchedulingApp\\SchedulingApp.csproj",
               "RelativeDocumentMoniker": "SchedulingApp\\SchedulingApp.csproj",

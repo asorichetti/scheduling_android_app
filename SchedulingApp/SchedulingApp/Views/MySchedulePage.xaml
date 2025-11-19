@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SchedulingApp.Views.MySchedulePage"
+             Title="My Schedule">
+   <!-- 
+    Author: Alex Sorichetti
+    Date: NOV 19, 2025
+    Desc: Page displaying user's scheduled volunteer shifts
+    -->
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="20">
+            <!--Summary-->
+            <Border BackgroundColor="#E8F5E9"
+                    StrokeThickness="0"
+                    Padding="20">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="10"/>
+                </Border.StrokeShape>
+                <Grid ColumnDefinitions="*,*" RowDefinitions="Auto,Auto">
+                    <VerticalStackLayout Grid.Column="0" Spacing="5">
+                        <Label Text="Upcoming Shifts"
+                               FontSize="14"
+                               TextColor="#388E3C"/>
+                        <Label x:Name="UpcomingShiftsLabel"
+                               Text="3"
+                               FontSize="32"
+                               FontAttributes="Bold"
+                               TextColor="#2E7D32"/>
+                    </VerticalStackLayout>
+
+                    <VerticalStackLayout Grid.Column="1" Spacing="5">
+                        <Label Text="Total Hours"
+                               FontSize="14"
+                               TextColor="#388E3C"/>
+                        <Label x:Name="TotalHoursLabel"
+                               Text="8.5"
+                               FontSize="32"
+                               FontAttributes="Bold"
+                               TextColor="#2E7D32"/>
+                    </VerticalStackLayout>
+                </Grid>
+            </Border>
+            
+            <!--Upcoming Shifts Section-->
+            <Label Text="Upcoming Shifts"
+                   FontSize="22"
+                   FontAttributes="Bold"/>
+
+            <CollectionView x:Name="UpcomingShiftsCollection">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Border Margin="0,5"
+                                Padding="15"
+                                BackgroundColor="White"
+                                Stroke="#E0E0E0"
+                                StrokeThickness="1">
+                            <Border.StrokeShape>
+                                <RoundRectangle CornerRadius="10"/>
+                            </Border.StrokeShape>
+                            <Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto" ColumnDefinitions="*,Auto">
+                                
+                                <!--Title-->
+                                <Label Grid.Row="0" Grid.Column="0"
+                                       Text="{Binding Title}"
+                                       FontSize="18"
+                                       FontAttributes="Bold"
+                                       TextColor="#2E2E2E"/>
+                                
+                                <!--Status Badge-->
+                                <Border Grid.Row="0" Grid.Column="1"
+                                        BackgroundColor="#4CAF50"
+                                        Padding="8,4"
+                                        StrokeThickness="0">
+                                    <Border.StrokeShape>
+                                        <RoundRectangle CornerRadius="12"/>
+                                    </Border.StrokeShape>
+                                    <Label Text="Confirmed"
+                                           FontSize="11"
+                                           TextColor="White"
+                                           FontAttributes="Bold"/>
+                                </Border>
+                                <!--Organization-->
+                                <Label Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"
+                                       Text="{Binding OrganizationName}"
+                                       FontSize="14"
+                                       TextColor="#2196F3"
+                                       Margin="0,5,0,0"/>
+                                
+                                <!--Date and Time-->
+                                <Label Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2"
+                                       Text="{Binding StartTime, StringFormat='{0:dddd, MMM dd, yyyy}'}"
+                                       FontSize="14"
+                                       TextColor="#444"
+                                       Margin="0,5,0,0"/>
+                                <Label Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2"
+                                       Text="{Binding StartTime, StringFormat='{0:hh:mm tt}'}"
+                                       FontSize="14"
+                                       TextColor="#444"
+                                       Margin="0,2,0,0"/>
+                                
+                                <!--Location-->
+                                <Label Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="2"
+                                       Text="{Binding Location, StringFormat='* {0}'}"
+                                       FontSize="14"
+                                       TextColor="#444"
+                                       Margin="0,2,0,0"/>
+                            </Grid>
+                        </Border>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+                
+                <!--Format for no upcoming shifts-->
+                <CollectionView.EmptyView>
+                    <VerticalStackLayout VerticalOptions="Center" Padding="40">
+                        <Label Text="No upcoming shifts"
+                               FontSize="20"
+                               TextColor="#999"
+                               HorizontalOptions="Center"/>
+                        <Label Text="Browse Available Shifts to Get Started!"
+                               FontSize="14"
+                               TextColor="#CCC"
+                               HorizontalOptions="Center"
+                               Margin="0,5,0,0"/>
+                        <Button Text="Browse Shifts"
+                                BackgroundColor="#4CAF50"
+                                TextColor="White"
+                                Margin="0,20,0,0"
+                                Clicked="OnBrowseShiftsClicked"/>
+                    </VerticalStackLayout>
+                </CollectionView.EmptyView>
+            </CollectionView>
+            
+            <!--Past Shifts Section-->
+            <Label Text="Past Shifts"
+                   FontSize="22"
+                   FontAttributes="Bold"
+                   Margin="0,20,0,0"/>
+
+            <CollectionView x:Name="PastShiftsCollection">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Border Margin="0,5"
+                                Padding="15"
+                                BackgroundColor="#F5F5F5"
+                                Stroke="#E0E0E0"
+                                StrokeThickness="1">
+                            <Border.StrokeShape>
+                                <RoundRectangle CornerRadius="10"/>
+                            </Border.StrokeShape>
+
+                            <Grid ColumnDefinitions="*,Auto" RowDefinitions="Auto,Auto,Auto">
+
+                                <Label Grid.Row="0" Grid.Column="0"
+                                       Text="{Binding Title}"
+                                       FontSize="16"
+                                       FontAttributes="Bold"
+                                       TextColor="#444"/>
+
+                                <Border Grid.Row="0" Grid.Column="1"
+                                        BackgroundColor="#E0E0E0"
+                                        Padding="8,4"
+                                        StrokeThickness="0">
+                                    <Border.StrokeShape>
+                                        <RoundRectangle CornerRadius="12"/>
+                                    </Border.StrokeShape>
+                                    <Label Text="Completed"
+                                           FontSize="11"
+                                           TextColor="#444"/>
+                                </Border>
+
+                                <Label Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2"
+                                       Text="{Binding StartTime, StringFormat='{0:MMM dd, yyyy}'}"
+                                       FontSize="13"
+                                       TextColor="#666"
+                                       Margin="0,4,0,0"/>
+                                <Label Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2"
+                                       Text="{Binding OrganizationName}"
+                                       FontSize="13"
+                                       TextColor="#666"/>
+                            </Grid>
+                        </Border>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+            
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
