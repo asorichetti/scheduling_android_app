@@ -5,6 +5,21 @@
              x:Class="SchedulingApp.App">
     <Application.Resources>
         <ResourceDictionary>
+            <Color x:Key="Primary">#4F4F4F</Color>
+            <Color x:Key="Secondary">#2196F3</Color>
+            <Color x:Key="Accent">#4CAF50</Color>
+            <Color x:Key="LightGray">#E0E0E0</Color>
+            <Color x:Key="DarkGray">#666666</Color>
+
+            <Style TargetType="Button">
+                <Setter Property="CornerRadius" Value="10"/>
+                <Setter Property="FontSize" Value="16"/>
+                <Setter Property="Padding" Value="15,10"/>
+            </Style>
+
+            <Style TargetType="Border">
+                <Setter Property="StrokeThickness" Value="0"/>
+            </Style>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
                 <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
