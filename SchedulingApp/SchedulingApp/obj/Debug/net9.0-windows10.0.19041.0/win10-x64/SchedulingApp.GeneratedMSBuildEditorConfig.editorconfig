@@ -64,6 +64,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = SchedulingApp.Views.MySche
 build_metadata.AdditionalFiles.TargetPath = Views\MySchedulePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\MySchedulePage.xaml
 
+[C:/Users/alex/Documents/GitHub/scheduling_android_app/SchedulingApp/SchedulingApp/Views/ProfilePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = SchedulingApp.Views.ProfilePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ProfilePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ProfilePage.xaml
+
 [C:/Users/alex/Documents/GitHub/scheduling_android_app/SchedulingApp/SchedulingApp/Views/ShiftsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = SchedulingApp.Views.ShiftsPage.xaml

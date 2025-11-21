@@ -2,6 +2,7 @@
 <!--
     Name: Alex Sorichetti
     Date: November 18, 2025
+    Updated: November 21, 2025
     Desc: Shell navigation structure for the scheduling app
 -->
 <Shell
@@ -32,25 +33,25 @@
 
     <!-- Menu Items -->
     <FlyoutItem Title="Dashboard" 
-                Icon="home.png"
+                Icon="dotnet_bot.png"
                 Route="DashboardPage">
         <ShellContent ContentTemplate="{DataTemplate views:DashboardPage}" />
     </FlyoutItem>
 
     <FlyoutItem Title="Browse Shifts" 
-                Icon="calendar.png"
+                Icon="dotnet_bot.png"
                 Route="ShiftsPage">
         <ShellContent ContentTemplate="{DataTemplate views:ShiftsPage}" />
     </FlyoutItem>
 
     <FlyoutItem Title="My Schedule" 
-                Icon="schedule.png"
+                Icon="dotnet_bot.png"
                 Route="MySchedulePage">
         <ShellContent ContentTemplate="{DataTemplate views:MySchedulePage}" />
     </FlyoutItem>
 
     <FlyoutItem Title="Profile" 
-                Icon="person.png"
+                Icon="dotnet_bot.png"
                 Route="ProfilePage">
         <ShellContent ContentTemplate="{DataTemplate views:ProfilePage}" />
     </FlyoutItem>

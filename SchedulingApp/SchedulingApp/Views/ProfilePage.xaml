@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SchedulingApp.Views.ProfilePage"
+             Title="ProfilePage">
+   <!--
+    Author: Alex Sorichetti
+    Date: NOV 21, 2025
+    Desc: User profile and settings page
+    -->
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="25">
+
+            <!--Profile Header-->
+            <VerticalStackLayout Spacing="10" HorizontalOptions="Center">
+
+                <!--Profile Picture Placeholder-->
+                <Border BackgroundColor="#2196F3"
+                        HeightRequest="120"
+                        WidthRequest="120"
+                        StrokeThickness="0"
+                        HorizontalOptions="Center">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="60"/>
+                    </Border.StrokeShape>
+                    <Label Text="AS"
+                           FontSize="48"
+                           FontAttributes="Bold"
+                           TextColor="White"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center"/>
+                </Border>
+
+                <Label x:Name="UserFullNameLabel"
+                       Text="Alex Sorichetti"
+                       FontSize="24"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"/>
+                <Label x:Name="UserEmailLabel"
+                       Text="asori@email.com"
+                       FontSize="14"
+                       TextColor="#444"
+                       HorizontalOptions="Center"/>
+            </VerticalStackLayout>
+
+            <!--Stats Section-->
+            <Border BackgroundColor="#F5F5F5"
+                    StrokeThickness="0"
+                    Padding="20">
+                <Border.StrokeShape>
+                    <RoundRectangle CornerRadius="10"/>
+                </Border.StrokeShape>
+                <Grid ColumnDefinitions="*,*,*" RowDefinitions="Auto,Auto">
+                    <VerticalStackLayout Grid.Column="0" Spacing="5" HorizontalOptions="Center">
+                        <Label x:Name="TotalShiftsLabel"
+                               Text="15"
+                               FontSize="28"
+                               FontAttributes="Bold"
+                               TextColor="#2196F3"
+                               HorizontalOptions="Center"/>
+                        <Label Text="Total Shifts"
+                               FontSize="12"
+                               TextColor="#555"
+                               HorizontalOptions="Center"/>
+                    </VerticalStackLayout>
+
+                    <VerticalStackLayout Grid.Column="1" Spacing="5" HorizontalOptions="Center">
+                        <Label x:Name="TotalHoursLabel"
+                               Text="42"
+                               FontSize="28"
+                               FontAttributes="Bold"
+                               TextColor="#4CAF50"
+                               HorizontalOptions="Center"/>
+                        <Label Text="Hours"
+                               FontSize="12"
+                               TextColor="#555"
+                               HorizontalOptions="Center"/>
+                    </VerticalStackLayout>
+
+                    <VerticalStackLayout Grid.Column="2" Spacing="5" HorizontalOptions="Center">
+                        <Label x:Name="OrganizationsLabel"
+                               Text="5"
+                               FontSize="28"
+                               FontAttributes="Bold"
+                               TextColor="#FF9800"
+                               HorizontalOptions="Center"/>
+                        <Label Text="Organizations"
+                               FontSize="12"
+                               TextColor="#555"
+                               HorizontalOptions="Center"/>
+                    </VerticalStackLayout>
+                </Grid>
+            </Border>
+            <!-- Personal Information Section -->
+            <Label Text="Personal Information"
+                   FontSize="20"
+                   FontAttributes="Bold"/>
+
+            <VerticalStackLayout Spacing="15">
+
+                <!-- First Name -->
+                <VerticalStackLayout Spacing="5">
+                    <Label Text="First Name"
+                           FontSize="14"
+                           TextColor="#666"/>
+                    <Entry x:Name="FirstNameEntry"
+                           Text="Alex"
+                           FontSize="16"/>
+                </VerticalStackLayout>
+
+                <!-- Last Name -->
+                <VerticalStackLayout Spacing="5">
+                    <Label Text="Last Name"
+                           FontSize="14"
+                           TextColor="#666"/>
+                    <Entry x:Name="LastNameEntry"
+                           Text="Sorichetti"
+                           FontSize="16"/>
+                </VerticalStackLayout>
+                <!-- Email -->
+                <VerticalStackLayout Spacing="5">
+                    <Label Text="Email"
+                       FontSize="14"
+                       TextColor="#666"/>
+                    <Entry x:Name="EmailEntry"
+                       Text="asori@email.com"
+                       Keyboard="Email"
+                       FontSize="16"/>
+                </VerticalStackLayout>
+
+                <!-- Phone -->
+                <VerticalStackLayout Spacing="5">
+                    <Label Text="Phone Number"
+                       FontSize="14"
+                       TextColor="#666"/>
+                    <Entry x:Name="PhoneEntry"
+                       Text="(555) 123-4567"
+                       Keyboard="Telephone"
+                       FontSize="16"/>
+                </VerticalStackLayout>
+
+            </VerticalStackLayout>
+
+            <!-- Preferences Section -->
+            <Label Text="Preferences"
+               FontSize="20"
+               FontAttributes="Bold"
+               Margin="0,10,0,0"/>
+
+            <VerticalStackLayout Spacing="15">
+
+                <!-- Notifications Toggle -->
+                <Grid ColumnDefinitions="*,Auto">
+                    <VerticalStackLayout Grid.Column="0">
+                        <Label Text="Push Notifications"
+                           FontSize="16"
+                           FontAttributes="Bold"/>
+                        <Label Text="Get reminders about upcoming shifts"
+                           FontSize="13"
+                           TextColor="#666"/>
+                    </VerticalStackLayout>
+                    <Switch Grid.Column="1"
+                        x:Name="NotificationsSwitch"
+                        IsToggled="True"
+                        OnColor="#4CAF50"
+                        VerticalOptions="Center"/>
+                </Grid>
+
+                <!-- Email Notifications Toggle -->
+                <Grid ColumnDefinitions="*,Auto">
+                    <VerticalStackLayout Grid.Column="0">
+                        <Label Text="Email Notifications"
+                           FontSize="16"
+                           FontAttributes="Bold"/>
+                        <Label Text="Receive shift updates via email"
+                           FontSize="13"
+                           TextColor="#666"/>
+                    </VerticalStackLayout>
+                    <Switch Grid.Column="1"
+                        x:Name="EmailNotificationsSwitch"
+                        IsToggled="True"
+                        OnColor="#4CAF50"
+                        VerticalOptions="Center"/>
+                </Grid>
+
+                <!-- Calendar Sync Toggle -->
+                <Grid ColumnDefinitions="*,Auto">
+                    <VerticalStackLayout Grid.Column="0">
+                        <Label Text="Calendar Sync"
+                           FontSize="16"
+                           FontAttributes="Bold"/>
+                        <Label Text="Add shifts to your device calendar"
+                           FontSize="13"
+                           TextColor="#666"/>
+                    </VerticalStackLayout>
+                    <Switch Grid.Column="1"
+                        x:Name="CalendarSyncSwitch"
+                        IsToggled="False"
+                        OnColor="#4CAF50"
+                        VerticalOptions="Center"/>
+                </Grid>
+
+            </VerticalStackLayout>
+
+            <!-- Action Buttons -->
+            <VerticalStackLayout Spacing="10" Margin="0,20,0,0">
+
+                <Button Text="Save Changes"
+                    BackgroundColor="#2196F3"
+                    TextColor="White"
+                    FontSize="16"
+                    CornerRadius="10"
+                    Padding="15"
+                    Clicked="OnSaveChangesClicked"/>
+
+                <Button Text="Change Password"
+                    BackgroundColor="#E0E0E0"
+                    TextColor="#4F4F4F"
+                    FontSize="16"
+                    CornerRadius="10"
+                    Padding="15"
+                    Clicked="OnChangePasswordClicked"/>
+
+                <Button Text="Log Out"
+                    BackgroundColor="Transparent"
+                    TextColor="#F44336"
+                    FontSize="16"
+                    BorderColor="#F44336"
+                    BorderWidth="1"
+                    CornerRadius="10"
+                    Padding="15"
+                    Clicked="OnLogOutClicked"
+                    Margin="0,10,0,0"/>
+
+            </VerticalStackLayout>
+
+            <!-- App Info -->
+            <VerticalStackLayout Spacing="5" Margin="0,20,0,20" HorizontalOptions="Center">
+                <Label Text="Volunteer Scheduler"
+                   FontSize="12"
+                   TextColor="#999"
+                   HorizontalOptions="Center"/>
+                <Label Text="Version 1.0.0"
+                   FontSize="11"
+                   TextColor="#CCC"
+                   HorizontalOptions="Center"/>
+            </VerticalStackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
